@@ -9,4 +9,4 @@ echo -n $graphic_card":" >> $1 && curl http://0.0.0.0:5000/$graphic_card >> $1
 done
 }
 
-display_graphic_card_sales sales.txt 
+display_graphic_card_sales ./sales.txt

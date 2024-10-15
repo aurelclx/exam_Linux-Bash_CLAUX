@@ -1,0 +1,1 @@
+*/1 * * oct,nov,dec,jan * /home/ubuntu/linuxbash/exam_Linux-Bash_CLAUX/exam_bash
