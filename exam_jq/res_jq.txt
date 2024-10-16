@@ -1,0 +1,7 @@
+1. Affichez le nombre d'attributs par document ainsi que l'attribut name. Combien y a-t-il d'attribut par document ? 
+commande : cat people.json | jq .[:12]  |jq .[] | jq '{name, count : length }'
+Réponse : le nombre d'attribut dans le document est de 17
+{ "name": "Luke Skywalker", "count": 17 } { "name": "C-3PO", "count": 17 } { "name": "R2-D2", "count": 17 } { "name": "Darth Vader", "count": 17 } { "name": "Leia Organa", "count": 17 } { "name": "Owen Lars", "count": 17 } { "name": "Beru Whitesun lars", "count": 17 } { "name": "R5-D4", "count": 17 } { "name": "Biggs Darklighter", "count": 17 } { "name": "Obi-Wan Kenobi", "count": 17 } { "name": "Anakin Skywalker", "count": 17 } { "name": "Wilhuff Tarkin", "count": 17 }
+
+---------------------------------
+
